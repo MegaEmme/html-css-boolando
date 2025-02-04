@@ -54,6 +54,7 @@ nav{
 /* sezione main */
 
 .grid{
+    gap: 20px;
     width: 80%;
     margin: auto;
     display: flex;
@@ -62,9 +63,12 @@ nav{
 }
 
 .element{
-    width: calc(100%/3);
+    width: 32%;
 }
 
+img{
+    width: 100%;
+}
 
 
 
