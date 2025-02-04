@@ -62,7 +62,6 @@ nav{
 }
 
 .element{
-    height: 200px;
     width: calc(100%/3);
 }
 
