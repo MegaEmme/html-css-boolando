@@ -1,6 +1,45 @@
 *{
+    font-family: sans-serif;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+}
+
+
+/* sezione header */
+
+
+header{
+    background-color:#ff6900;
+}
+
+
+nav{
+    position: sticky;
+    display: flex;
+    background-color:#ff6900;
+    width: 80%;
+    margin: auto;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gender > a{
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    height: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.icons{
+    width: 60px;
+    display: flex;
+    justify-content: space-between;
 }
