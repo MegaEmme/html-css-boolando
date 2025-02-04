@@ -73,9 +73,10 @@ nav{
 
 .background-image{
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 465px;
+    width: 100%;
 }
 
 .top_card{
@@ -207,7 +208,6 @@ h2{
 
 
 footer{
-    height: 1000px;
     background-color: black;
 }
 
