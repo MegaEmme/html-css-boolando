@@ -55,17 +55,20 @@ nav{
 /* sezione main */
 
 .grid{
-    gap: 20px;
+    /* gap: 20px; */
     width: 80%;
     margin: auto;
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
-    padding-top: 60px;   
+    padding-top: 60px;  
+    padding-bottom: 60px; 
 }
 
 .element{
     position: relative;
     width: 32%;
+    padding-bottom: 40px;
 }
 
 img{
@@ -73,7 +76,7 @@ img{
 }
 
 .bottom_card{
-    width: 50%;    
+    width: 60%;    
 }
 
 h4{
@@ -111,13 +114,13 @@ h2{
 }
 
 .heart > i{
-    font-size: 30px;
+    font-size: 25px;
     padding: 30%;
 }
 
 .red_box{
     position: absolute;
-    bottom: 80px;
+    bottom: 120px;
     background-color: red;
     color: white;
     padding: 6px 12px;
@@ -126,7 +129,7 @@ h2{
 
 .green_box{
     position: absolute;
-    bottom: 80px;
+    bottom: 120px;
     left: 60px;
     background-color: green;
     color: white;
@@ -134,6 +137,14 @@ h2{
     font-size: 12px;
 }
 
+.green_box_2{
+    position: absolute;
+    bottom: 120px;
+    background-color: green;
+    color: white;
+    padding: 6px 12px;
+    font-size: 12px;
+}
 
 
 
