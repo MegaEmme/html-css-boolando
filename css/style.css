@@ -3,7 +3,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 
@@ -13,6 +13,7 @@
 header{
     position: sticky;
     top: 0;
+    z-index: 1;
     background-color:#ff6900;
 }
 
@@ -63,6 +64,7 @@ nav{
 }
 
 .element{
+    position: relative;
     width: 32%;
 }
 
@@ -70,7 +72,67 @@ img{
     width: 100%;
 }
 
+.bottom_card{
+    width: 50%;    
+}
 
+h4{
+    font-size: 11px;
+    font-weight: lighter;
+}
+
+h2{
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+.price{
+    font-size: 12px;
+    font-weight: bolder;
+    display: flex;
+    gap: 4px;
+}
+
+.new_price{
+    color: red;
+}
+
+.old_price{
+    text-decoration: line-through;
+}
+
+.heart{
+    height: 12%;
+    width: 20%;
+    background-color:white;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+.heart > i{
+    font-size: 30px;
+    padding: 30%;
+}
+
+.red_box{
+    position: absolute;
+    bottom: 80px;
+    background-color: red;
+    color: white;
+    padding: 6px 12px;
+    font-size: 12px;    
+}
+
+.green_box{
+    position: absolute;
+    bottom: 80px;
+    left: 60px;
+    background-color: green;
+    color: white;
+    padding: 6px 12px;
+    font-size: 12px;
+}
 
 
 
