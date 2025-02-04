@@ -69,6 +69,38 @@ nav{
     position: relative;
     width: 32%;
     padding-bottom: 40px;
+    
+}
+
+.background-image{
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 465px;
+}
+
+.top_card{
+    width: 100%;
+}
+
+.img1{
+    background-image: url(../img/1.webp);
+}
+
+.img2{
+    background-image: url(../img/2.webp);
+}
+.img3{
+    background-image: url(../img/3.webp);
+}
+.img4{
+    background-image: url(../img/4.webp);
+}
+.img5{
+    background-image: url(../img/5.webp);
+}
+.img6{
+    background-image: url(../img/6.webp);
 }
 
 img{
@@ -112,6 +144,7 @@ h2{
     top: 10px;
     right: 0;
 }
+
 
 .heart > i{
     font-size: 25px;
