@@ -3,7 +3,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 
@@ -11,20 +11,22 @@
 
 
 header{
+    position: sticky;
+    top: 0;
     background-color:#ff6900;
 }
 
 
 nav{
-    position: sticky;
+    width: 80%;
     display: flex;
     background-color:#ff6900;
-    width: 80%;
     margin: auto;
     color: white;
     justify-content: space-between;
     align-items: center;
 }
+
 
 .gender > a{
     font-weight: bolder;
@@ -33,13 +35,48 @@ nav{
 }
 
 .logo{
-    height: 70px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    height: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .icons{
     width: 60px;
     display: flex;
     justify-content: space-between;
+}
+
+/* /sezione header */
+
+
+
+
+/* sezione main */
+
+.grid{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 60px;   
+}
+
+.element{
+    height: 200px;
+    width: calc(100%/3);
+}
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    height: 1000px;
+    background-color: black;
 }
