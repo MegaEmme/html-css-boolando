@@ -83,9 +83,8 @@ nav{
 
 .element{
     position: relative;
-    width: 32%;
-    padding-bottom: 40px;
-    
+    width: calc((100% - 40px) / 3);
+    padding-bottom: 40px;    
 }
 
 .background-image{
