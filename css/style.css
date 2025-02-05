@@ -90,7 +90,7 @@ nav{
 .background-image{
     background-size: cover;
     background-repeat: no-repeat;
-    height: 465px;
+    height: 570px;
     width: 100%;
 }
 
@@ -179,7 +179,7 @@ h2{
 }
 
 .heart{
-    height: 12%;
+    height: 10%;
     width: 18%;
     background-color:white;
     position: absolute;
