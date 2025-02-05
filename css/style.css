@@ -47,6 +47,11 @@ nav{
     justify-content: space-between;
 }
 
+.icons > a{
+    color: white;
+    text-decoration: none;
+}
+
 /* /sezione header */
 
 
