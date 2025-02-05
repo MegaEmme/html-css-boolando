@@ -17,12 +17,13 @@
 
 
 header{
-    position: sticky;
+    position: fixed;
+    left: 0;
+    right: 0;
     top: 0;
     z-index: 1;
     background-color:#ff6900;
     box-shadow: 0 3px 5px #cbae7e;
-    /* border-bottom: 2px solid #cbae7e; */
 }
 
 nav{
@@ -183,17 +184,15 @@ h2{
 }
 
 .heart{
-    height: 10%;
-    width: 18%;
     background-color:white;
     position: absolute;
     top: 10px;
     right: 0px;
+    padding: 15px;
 }
 
 .heart > i{
-    font-size: 25px;
-    padding: 30%;
+    font-size: 20px;
 }
 
 .red_box{
