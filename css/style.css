@@ -54,7 +54,6 @@ nav{
 /* sezione main */
 
 .grid{
-    /* gap: 20px; */
     width: 80%;
     margin: auto;
     display: flex;
@@ -83,6 +82,10 @@ nav{
     width: 100%;
 }
 
+img{
+    width: 100%;
+}
+
 .img1{
     background-image: url(../img/1.webp);
 }
@@ -103,30 +106,31 @@ nav{
     background-image: url(../img/3.webp);
 }
 
-
 .img3hover:hover .img3{
     background-image: url(../img/3b.webp);
 }
+
 .img4{
     background-image: url(../img/4.webp);
 }
+
 .img4hover:hover .img4{
     background-image: url(../img/4b.webp);
 }
+
 .img5{
     background-image: url(../img/5.webp);
 }
+
 .img5hover:hover .img5{
     background-image: url(../img/5b.webp);
 }
+
 .img6{
     background-image: url(../img/6.webp);
 }
 .img6hover:hover .img6{
     background-image: url(../img/6b.webp);
-}
-img{
-    width: 100%;
 }
 
 .bottom_card{
@@ -167,7 +171,6 @@ h2{
     right: 0;
 }
 
-
 .heart > i{
     font-size: 25px;
     padding: 30%;
@@ -201,11 +204,12 @@ h2{
     font-size: 12px;
 }
 
+/* /sezione main  */
 
 
 
 
-
+/* sezione footer  */
 
 footer{
     background-color: black;
@@ -254,3 +258,5 @@ ul *{
     padding-bottom: 10px;
     font-size: 11px;
 }
+
+/* /sezione footer  */
