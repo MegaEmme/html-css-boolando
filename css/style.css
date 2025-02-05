@@ -160,6 +160,7 @@ h4{
 }
 
 h2{
+    text-transform: uppercase;
     font-size: 12px;
     font-weight: bolder;
 }
@@ -177,6 +178,7 @@ h2{
 
 .old_price{
     text-decoration: line-through;
+    font-weight: lighter;
 }
 
 .heart{
