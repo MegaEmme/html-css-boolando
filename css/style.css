@@ -1,9 +1,16 @@
+/* reset  */
+
 *{
     font-family: sans-serif;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
+
+/* /reset  */
+
+
+
 
 
 /* sezione header */
@@ -17,7 +24,6 @@ header{
     border-bottom: 2px solid #cbae7e;
 }
 
-
 nav{
     width: 80%;
     display: flex;
@@ -27,7 +33,6 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
-
 
 .gender > a{
     font-weight: bolder;
@@ -53,6 +58,7 @@ nav{
 }
 
 /* /sezione header */
+
 
 
 
@@ -211,6 +217,7 @@ h2{
 }
 
 /* /sezione main  */
+
 
 
 
